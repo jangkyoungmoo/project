@@ -1,16 +1,25 @@
-# React + Vite
+# 이 레포지토리는 github 프로젝트를 진행하기 위한 공간입니다.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 개발 환경
+Framework: React(vite)
+Language: JavaScript
+Tool: VScode, Git, GitHub
 
-Currently, two official plugins are available:
+## Branch
+Main: 배포용 브랜치
+Develop: 개발 중심 브랜치
+feat: 기능 개발용 브랜치
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## React(vite)
+설치: npm install
+실행: npm run dev
 
-## React Compiler
+## Commit Messasge Convention
+✨ Feat: 새로운 기능 추가
+🐛 Fix: 버그 수정
+📝 Docs: 문서 수정
+🎨 Design: CSS스타일 수정
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 폴더 구조
+'src': 실제 코드
+'public': 정적 리소스
