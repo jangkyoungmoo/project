@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const LogoImage = styled.img`
     width: 166px;
     height: 141px;
+    cursor: pointer;
 `;
 
 const HomeIcon = styled.img`
@@ -53,6 +54,7 @@ const BottomMenu = styled.div`
     display: flex;
     align-items: center;
     height: 40px;
+    cursor: pointer;
 `;
 
 export default function Header() {
@@ -71,8 +73,7 @@ export default function Header() {
             <HeaderContainer>
                 <LogoImage 
                     src={logoUrl} 
-                    onClick={() => navigate("/")} 
-                    style={{ cursor: 'pointer' }} 
+                    onClick={() => navigate("/")}
                 />
                 <HeaderRight>
                     <TopMenu>
@@ -85,7 +86,7 @@ export default function Header() {
                             </Button>
                         )}
                     </TopMenu>
-                    <BottomMenu onClick={() => navigate("/")} style={{ cursor: 'pointer' }}>
+                    <BottomMenu onClick={() => navigate("/")}>
                         <HomeIcon src={homeUrl}/>
                     </BottomMenu>
                 </HeaderRight>
